@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84810a77-f728-4755-adf6-974459c8306b" name="Changes" comment="homework-1 files and directory added" />
+    <list default="true" id="84810a77-f728-4755-adf6-974459c8306b" name="Changes" comment="adding readme file text">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework-1" />
+        <entry key="$PROJECT_DIR$" value="codewars-tests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,9 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2XtaBGH2GpCbxnw7v6XefpaHmai" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,15 +36,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "homework-6",
     "last_opened_file_path": "C:/Users/marat/WebstormProjects/sc-homework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marat\WebstormProjects\sc-homework\hw-4" />
+      <recent name="C:\Users\marat\WebstormProjects\sc-homework\hw-2" />
+      <recent name="C:\Users\marat\WebstormProjects\sc-homework\hw-3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\marat\WebstormProjects\sc-homework\homework-1" />
     </key>
@@ -56,6 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699450692457</updated>
       <workItem from="1699450693644" duration="713000" />
+      <workItem from="1700153016441" duration="66000" />
+      <workItem from="1700153231293" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="homework-1 files and directory added">
       <option name="closed" value="true" />
@@ -65,7 +76,47 @@
       <option name="project" value="LOCAL" />
       <updated>1699451227443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework-2 files and directory added">
+      <option name="closed" value="true" />
+      <created>1699452224174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699452224174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="homework-4 files and directory added">
+      <option name="closed" value="true" />
+      <created>1699452457350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699452457350</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding codewars tests for homework 2 and 4">
+      <option name="closed" value="true" />
+      <created>1699452780990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699452780990</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding codewars tests for homework 2 and 4">
+      <option name="closed" value="true" />
+      <created>1699457378367</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699457378367</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding readme file text">
+      <option name="closed" value="true" />
+      <created>1699457401928</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699457401928</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +147,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework-1 files and directory added" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework-1 files and directory added" />
+    <MESSAGE value="homework-2 files and directory added" />
+    <MESSAGE value="homework-4 files and directory added" />
+    <MESSAGE value="adding codewars tests for homework 2 and 4" />
+    <MESSAGE value="adding readme file text" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding readme file text" />
   </component>
 </project>
