@@ -1,0 +1,34 @@
+{
+  "/products": {
+    "post": {
+      "tags": [
+        "Product"
+      ],
+      "summary": "Create product",
+      "requestBody": {
+        "required": true,
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/ProductCreate"
+            }
+          }
+        }
+      },
+      "responses": {
+        "201": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductResponse"
+              }
+            }
+          }
+        },
+        "403": {
+          "description": "Invalid product category"
+        }
+      }
+    }
+  }
+}

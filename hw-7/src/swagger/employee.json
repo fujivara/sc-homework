@@ -1,0 +1,45 @@
+{
+  "/employees/{id}": {
+    "patch": {
+      "tags": [
+        "Employee"
+      ],
+      "parameters": [
+        {
+          "in": "path",
+          "name": "id",
+          "description": "Id of an employee",
+          "required": true,
+          "schema": {
+            "type": "integer"
+          }
+        }
+      ],
+      "summary": "Update employee by id",
+      "requestBody": {
+        "required": false,
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/EmployeeUpdate"
+            }
+          }
+        }
+      },
+      "responses": {
+        "200": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeResponse"
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "Employee with such id not found"
+        }
+      }
+    }
+  }
+}
