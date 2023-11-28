@@ -1,0 +1,35 @@
+{
+  "/orders/{id}": {
+    "delete": {
+      "tags": [
+        "Order"
+      ],
+      "parameters": [
+        {
+          "in": "path",
+          "name": "id",
+          "description": "Id of an order",
+          "required": true,
+          "schema": {
+            "type": "integer"
+          }
+        }
+      ],
+      "summary": "Delete order by id",
+      "responses": {
+        "200": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderResponse"
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "Order with such id not found"
+        }
+      }
+    }
+  }
+}

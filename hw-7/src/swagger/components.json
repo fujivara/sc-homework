@@ -1,0 +1,138 @@
+{
+    "schemas": {
+      "CustomerOrder": {
+        "type": "object",
+        "properties": {
+          "orders": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Order"
+            }
+          },
+          "totalCost": {
+            "type": "number"
+          }
+        }
+      },
+      "Order": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "customerId": {
+            "type": "integer"
+          },
+          "employeeId": {
+            "type": "integer"
+          },
+          "address": {
+            "type": "string"
+          },
+          "deliveryCost": {
+            "type": "integer"
+          },
+          "orderDate": {
+            "type": "string"
+          },
+          "totalCost": {
+            "type": "number"
+          }
+        }
+      },
+      "EmployeeUpdate": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "middleName": {
+            "type": "string"
+          },
+          "position": {
+            "type": "string"
+          }
+        }
+      },
+      "EmployeeResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "middleName": {
+            "type": "string"
+          },
+          "position": {
+            "type": "string"
+          }
+        }
+      },
+      "ProductCreate": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "integer"
+          },
+          "price": {
+            "type": "integer"
+          }
+        }
+      },
+      "ProductResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "integer"
+          },
+          "price": {
+            "type": "integer"
+          }
+        }
+      },
+      "OrderResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "customerId": {
+            "type": "string"
+          },
+          "orderAddress": {
+            "type": "string"
+          },
+          "deliveryCost": {
+            "type": "integer"
+          },
+          "orderDate": {
+            "type": "string"
+          }
+        }
+      }
+    }
+}

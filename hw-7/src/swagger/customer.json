@@ -1,0 +1,35 @@
+{
+  "/customers/{customerId}/orders": {
+    "get": {
+      "tags": [
+        "Customer"
+      ],
+      "parameters": [
+        {
+          "in": "path",
+          "name": "customerId",
+          "description": "Id of a customer",
+          "required": true,
+          "schema": {
+            "type": "integer"
+          }
+        }
+      ],
+      "summary": "Get order of a specific customer",
+      "responses": {
+        "200": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerOrder"
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "Customer with such id not found"
+        }
+      }
+    }
+  }
+}
